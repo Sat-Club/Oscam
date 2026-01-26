@@ -2,7 +2,7 @@ name: mirror gitlab
 
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '30 */6 * * *'
   workflow_dispatch:
   repository_dispatch:
     types: invoke-mirror-gitlab
